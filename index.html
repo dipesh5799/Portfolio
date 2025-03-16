@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,7 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Style Switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
+
 <body>
     <!-- Main Container Start -->
     <div class="main-container">
@@ -19,46 +28,436 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fa fa-list"></i> Skills</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
             </ul>
         </div>
 
-    <!-- Aside End -->
-    <!-- Main Content Start -->
-     <div class="main-content">
-        <!-- Home Section Start -->
-         <section class="home section">
-            <div class="container">
-                <div class="row">
-                    <div class="home-info padd-15">
-                        <h3 class="hello">Hello, My name is <span class="name">Dipesh Yadav</span></h3>
-                        <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
-                        <p> create responsive and interactive web applications using HTML, CSS, JavaScript,
-                             and other technologies.</p> 
-                             <h1><span class="typing">Website Design and Development:</span></h1>
-                                <h1><span class="typing">Front-end development:</span></h1><p> Focuses on the user interface (UI) and the visual elements of a website, including layout, design, and user experience (UX). </p>
-                                <h1> <span class="typing">Back-end development:</span></h1> <p> Deals with the server-side logic, databases, and APIs that power a website. </p>
-                                <h1> <span class="typing">Full-stack development:</span></h1>  <p>Combines both front-end and back-end development skills to build complete websites. </p> 
-                        <a href="#" class="btn download-cv">Download CV</a>
-                        <a href="#contact" class="btn hire-me">Hire me</a>
-                    </div>
-                    <div class="home-img padd-15">
-                        <img src="images/Hero.JPG" alt="">
+        <!-- Aside End -->
+        <!-- Main Content Start -->
+        <div class="main-content">
+            <!-- Home Section Start -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, My name is <span class="name">Dipesh Yadav</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
+                            <p> create responsive and interactive web applications using HTML, CSS, JavaScript,
+                                and other technologies.</p>
+                            <!-- <h1><span class="typing">Website Design and Development:</span></h1>
+                            <h1><span class="typing">Front-end development:</span></h1>
+                            <p> Focuses on the user interface (UI) and the visual elements of a website, including
+                                layout, design, and user experience (UX). </p>
+                            <h1> <span class="typing">Back-end development:</span></h1>
+                            <p> Deals with the server-side logic, databases, and APIs that power a website. </p>
+                            <h1> <span class="typing">Full-stack development:</span></h1>
+                            <p>Combines both front-end and back-end development skills to build complete websites. </p> -->
+                            <a href="images/Resume_Dipesh_Yadav.pdf" class="btn download-cv">Download CV</a>
+                            <a href="#contact" class="btn hire-me">Hire me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/Hero.JPG" alt="">
+                        </div>
                     </div>
                 </div>
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section Start -->
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Hi, I'm <span>Dipesh Yadav</span></h3>
+                                    <p> I am a web developer with a passion for creating responsive and interactive web
+                                        applications.
+                                        I have experience in front-end and back-end development, as well as full-stack
+                                        development.
+                                        I am proficient in HTML, CSS, JavaScript, and other technologies, and I am
+                                        always looking to learn new skills and technologies to improve my work. I am
+                                        dedicated to creating high-quality websites that meet the needs of my clients
+                                        and provide a great user experience. </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <br class="row">
+                                    <div class="info-item padd-15">
+                                        <p>DOB : <span>5th July 1999</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Email : <span>dipeshyadav571999@gmail.com</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Phone : <span>8896849773</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Degree : <span>MCA</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="buttons padd-15">
+                                    <a href="#" class="btn"> Download CV</a>
+                                    <a href="#contact" class="btn hire-me"> Hire Me</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- Timeline Item -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot">
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2022-2024
+                                                        </h3>
+                                                        <h4 class="timeline-title">Master of Computer Application</h4>
+                                                        <p class="timeline-text">Babu Banarasi Das University Lucknow
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot">
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2019-2022
+                                                        </h3>
+                                                        <h4 class="timeline-title">Bachelor of Computer Application
+                                                        </h4>
+                                                        <p class="timeline-text">Shri Manilal Kadkia College of
+                                                            Commerce of Management & Computer Studies Ankleshwar
+                                                            <b>(Veer Narmad South Gujrat University Surat)</b>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot">
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2015
+                                                        </h3>
+                                                        <h4 class="timeline-title">12th (Intermediate)</h4>
+                                                        <p class="timeline-text">Shaheed Inter College Madhuban Mau
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot">
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2013
+                                                        </h3>
+                                                        <h4 class="timeline-title">10th (High School)</h4>
+                                                        <p class="timeline-text">S.V.M.H.S.S. Madhuban Mau</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experience</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <!-- Timeline Item -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot">
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i>Jan 2024-May 2024
+                                                            </h3>
+                                                            <h4 class="timeline-title">Accomodation Finder (MERN Full
+                                                                Stack Based Web Portal)</h4>
+                                                            <p class="timeline-text">
+                                                                •Developed a MERN stack web portal for user
+                                                                registration, authentication, and profile management.
+                                                            </p>
+                                                            <p class="timeline-text"> •Designed user-friendly interfaces
+                                                                and secure booking systems to enhance user experience.
+                                                            </p>
+                                                            <p class="timeline-text"> •Leveraged Node.js and Express.js
+                                                                for efficient and scalable back-end services.</p>
+                                                            <p class="timeline-text"> •Utilized React.js for building
+                                                                dynamic, responsive user interfaces.</p>
+                                                            <p class="timeline-text"> •Implemented MongoDB for data
+                                                                management and storage solutions.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot">
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i>Jan 2022-May 2022
+                                                            </h3>
+                                                            <h4 class="timeline-title">Dental Clinic Finder/Online
+                                                                Appointment (PHP Codigniter Based Portal)</h4>
+                                                            <p class="timeline-text">
+                                                                •Built a PHP CodeIgniter-based dental clinic finder with
+                                                                real-time appointment updates via
+                                                                API integration
+                                                            </p>
+                                                            <p class="timeline-text"> •Developed a robust Admin Panel
+                                                                and
+                                                                Client Panel for efficient appointment management.
+                                                            </p>
+                                                            <p class="timeline-text"> •Leveraged AJAX and jQuery for
+                                                                seamless and interactive user experiences</p>
+                                                            <p class="timeline-text"> •Ensured real-time updates and
+                                                                smooth interaction between users and the system.
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section End -->
+            <!-- Skills Section Start -->
+            <section class="skills section " id="skills">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Skills</h2>
+                        </div>
+                    </div>
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/html-5.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/css-3.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/js.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/react.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/php.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/Node.js" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/VScode.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/github.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/sublime_text.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/Expressjs.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                    <!-- Skills item Start -->
+                    <div class="skills-item">
+                        <div class="skills-item-inner shadow-dark">
+                            <div class="skills-img">
+                                <img src="images/MongoDB.png" alt="HTML5">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills item end -->
+                </div>
+            </section>
+            <!-- Skills Section End -->
+            <!-- Portfolio Section Start -->
+            <section class="portfolio section " id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title ">
+                            <h2>Projects</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio item Start -->
+
+                <div class="row">
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-img">
+                            <img src="images/project.png" alt="" height="80%" width="50%">
+
+                            <h4>Accomodation Finder</h4>
+                            <p>Tech- MERN Stack <i class="fa-solid fa-eye" aria-hidden="true">
+                                    <a href="https://github.com/dipesh5799/Accommodation_finder.git">Github</a></i></p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio item End -->
+            </section>
+            <!-- Portfolio Section End -->
+             <!-- Contact Section Start -->
+                <section class="contact section" id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Contact Me </h2>
+                            </div>
+                        </div>
+                        <h3 class="contact-title"> Have you any questions?</h3>
+                        
+                        <div class="row">
+                            <!-- Contact info Start -->
+                             <div class="contact-info-item">
+                                <div class="icon"><i class="fa fa-phone"></i></div>
+                                <h4>Call Me</h4>
+                                <p>+91 8896849773</p> 
+                             </div>
+                             <!-- Contact info End -->
+                              <!-- Contact info Start -->
+                             <div class="contact-info-item">
+                                <div class="icon"><i class="fa fa-envelope"></i></div>
+                                <h4>Email</h4>
+                                <p>dipeshyadav571999@gmail.com</p> 
+                             </div>
+                             <!-- Contact info End -->
+                        </div>                     
+              <!-- Contact Section End -->
+               <!-- Contact Form Start -->
+<!-- <div class="row">
+    <div class="contact-form padd-15">
+<div class="row">
+    <div class="form-item col-6 padd-15">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name">
+        </div>
+    </div>
+    <div class="form-item col-6 padd-15">
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email">
+        </div>
+    </div>
+   
+        <div class="form-item col-12 padd-15">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
             </div>
-         </section>
-         <!-- Home Section End -->
-     </div>
-     <!-- Main Content Start -->
+        </div>
+    
+   
+        <div class="form-item col-12 padd-15">
+            <div class="form-group">
+               <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+            </div>
+        </div>
+    
+        <div class="form-item col-12 padd-15">
+            <button type="submit" class="btn">Send Meassage</button>
+        </div>
+    </div>
+</div>
+    </div> -->
+</div>
+                <!-- Contact Form End -->
+                 
+        </div>
+                </section>
+        <!-- Main Content Start -->
     </div>
 
-     <!-- Main Container End -->
-     <!-- JS Files -->
-        <script src="js/script.js"></script>
+    <!-- Main Container End -->
+     <!-- Style switcher Start -->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-sun"></i>
+        </div>
+        <h4>Theme Colors</h4>
+         <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+         </div>
+      </div>
+      <!-- Style switcher End -->
+    <!-- JS Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" 
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
+
 </html>
