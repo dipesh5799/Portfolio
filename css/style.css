@@ -462,11 +462,13 @@ h3.my-profession {
     max-width: 80%;   
 }
 .portfolio .portfolio-item:hover {
-    box-shadow: 0 0 100px ;
-    transform: scale(1.05); 
+    box-shadow: 0 0 10px ;
+    transform: scale(1.01); 
+    background-shadow: var(--skin-color);
+    width: 0%;
 }
 .portfolio .portfolio-item .portfolio-img {
-    position: relative;
+  
     overflow: hidden;
     border-radius: 10px;
 }
@@ -475,23 +477,23 @@ h3.my-profession {
     object-fit: cover;
     transition: all 0.3s ease;
 }
-.portfolio .portfolio-item h4,
-.portfolio .portfolio-item p a{
-    font-size: 20px;
-    font-weight: 500;
+.portfolio .portfolio-item h4{
+    font-size: 24px;
+    font-weight: 900;
     color: var(--text-black-900);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-transform: capitalize;
 }
+
 .portfolio .portfolio-item p{
-    font-size: 16px;
-    color: var(--text-black-700);
+    font-size: 25px;
+    color: var(--text-black-900);
     margin-bottom: 25px;
 }
 .portfolio .portfolio-item a{
-    font-size: 16px;
+    font-size: 15px;
     color: var(--skin-color);
-    font-weight: 600;
+    font-weight: 900;
 }
 /* contact */
 .contact-title {
