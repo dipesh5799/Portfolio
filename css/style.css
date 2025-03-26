@@ -6,9 +6,10 @@
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
+  --skin-color: #ff6f61; /* Example skin color */
 }
-body.dark
-{
+
+body.dark {
     --bg-black-900: #151515;
     --bg-black-100: #222222;
     --bg-black-50: #393939;
@@ -41,36 +42,44 @@ ul {
   padding: 0 30px;
   opacity: 1;
 }
+
 .hidden {
   display: none !important;
 }
+
 .main-content {
   padding-left: 270px;
 }
+
 .padd-15 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .container {
   max-width: 1100px;
   width: 100%;
   margin: auto;
 }
+
 .section .container {
   padding-top: 50px;
   padding-bottom: 70px;
 }
+
 .section-title {
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 60px;
 }
+
 .section-title h2 {
   font-size: 40px;
   font-weight: 700;
   color: var(--text-black-900);
   position: relative;
 }
+
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -80,6 +89,7 @@ ul {
   top: 100%;
   left: 0;
 }
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -90,6 +100,7 @@ ul {
   left: 0;
   margin-top: 8px;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -97,6 +108,7 @@ ul {
   margin-right: -15px;
   position: relative;
 }
+
 .btn {
   font-size: 16px;
   padding: 12px 35px;
@@ -108,13 +120,17 @@ ul {
   display: inline-block;
   white-space: nowrap;
   transition: all 0.3s ease;
+  margin-right: 15px;
 }
+
 .btn:hover {
   transform: scale(1.05);
 }
-.shadow-dark{
+
+.shadow-dark {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
+
 /* aside */
 .aside {
   width: 270px;
@@ -163,6 +179,7 @@ ul {
   bottom: 0;
   left: 0;
 }
+
 .aside .logo a::after {
   content: "";
   position: absolute;
@@ -173,6 +190,7 @@ ul {
   top: 0;
   right: 0;
 }
+
 .aside.nav-toggler {
   height: 40px;
   width: 40px;
@@ -187,6 +205,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
 .aside .nav-toggler span {
   display: inline-block;
   width: 18px;
@@ -194,6 +213,7 @@ ul {
   background: var(--skin-color);
   position: relative;
 }
+
 .aside .nav-toggler span::before {
   content: "";
   position: absolute;
@@ -203,6 +223,7 @@ ul {
   top: -6px;
   left: 0;
 }
+
 .aside .nav-toggler span::after {
   content: "";
   position: absolute;
@@ -212,13 +233,13 @@ ul {
   top: 6px;
   left: 0;
 }
+
 .aside .nav {
   margin-top: 50px;
 }
 
 .aside .nav li {
   margin-bottom: 20px;
-
   display: block;
 }
 
@@ -230,51 +251,61 @@ ul {
   border-bottom: 1px solid var(--bg-black-50);
   padding: 10px 20px;
 }
+
 .aside .nav li a.active {
   color: var(--skin-color);
 }
+
 .aside .nav li a i {
   margin-right: 15px;
 }
+
 /* home */
 .home {
   min-height: 100vh;
   display: flex;
   color: var(--text-black-900);
 }
+
 .home .home-info {
   flex: 0 0 60%;
   max-width: 60%;
 }
+
 h3.hello {
   font-size: 30px;
-
   margin-bottom: 20px;
 }
+
 h3.hello span {
   font-family: "Clicker Script", cursive;
   font-size: 40px;
   font-weight: 700;
   color: var(--skin-color);
 }
+
 h3.my-profession {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
 .typing {
   color: var(--skin-color);
 }
+
 .home-info p {
   font-size: 18px;
   margin-bottom: 20px;
   color: var(--text-black-700);
 }
+
 .home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
   position: relative;
   text-align: center;
 }
+
 .home-img::after {
   content: "";
   position: absolute;
@@ -285,6 +316,7 @@ h3.my-profession {
   bottom: -40px;
   right: 20px;
 }
+
 .home-img::before {
   content: "";
   position: absolute;
@@ -295,42 +327,51 @@ h3.my-profession {
   top: -40px;
   left: -20px;
 }
+
 .home .home-img img {
   height: 400px;
   margin-top: auto;
   border-radius: 10px;
 }
+
 /* about */
 .about .about-content {
   flex: 0 0 100%;
   max-width: 100%;
 }
+
 .about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
 }
+
 .about .about-content .about-text h3 {
   font-size: 24px;
   font-weight: 700;
   color: var(--text-black-900);
   margin-bottom: 15px;
 }
+
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
+
 .about .about-content .about-text p {
   font-size: 16px;
   color: var(--text-black-700);
   margin-bottom: 25px;
 }
+
 .about .about-content .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
 }
+
 .about .about-content .personal-info .info-item p {
   flex: 0 0 100%;
   max-width: 100%;
 }
+
 .about .about-content .personal-info .info-item p {
   font-size: 16px;
   padding: 10px 0;
@@ -338,278 +379,280 @@ h3.my-profession {
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
+
 .about .about-content .personal-info .info-item p span {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 10px;
   display: inline-block;
 }
+
 .about .about-content .personal-info .buttons { 
   margin-top: 30px;
 }
-.about .about-content .personal-info .buttons .btn{ 
-    margin-right: 15px;
-    margin-top: 10px;
-  }
+
+.about .about-content .personal-info .buttons .btn { 
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
 .about .about-content .education,
 .about .about-content .experience {
   flex: 0 0 100%;
   max-width: 100%;
   margin-top: 30px;
 }
+
 .about .about-content h3.title {
   font-size: 24px;
   font-weight: 700;
   color: var(--text-black-900);
   margin-bottom: 30px;
 }
-.about .about-content .timeline-box{
-    flex: 0 0 100%;
-    max-width: 100%;
+
+.about .about-content .timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
+
 .about .about-content .timeline {
-    position: relative;
-    background-color: var(--bg-black-100);
-    padding: 30px 15px;
-    border: 1px solid var(--bg-black-50);
-    border-radius: 10px;
-    width: 100%;
-
+  position: relative;
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
 }
+
 .about .about-content .timeline .timeline-item {
-    position: relative;
-    padding-left: 37px;
-    padding-bottom: 50px;
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
 }
+
 .about .about-content .timeline .timeline-item:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
+
 .about .about-content .timeline .timeline-item::before {
-    content: '';
-    position: absolute;
-    width:5px;
-    height: 100px;
-    background-color: var(--skin-color);
-    left: 7px;
-    top: 0;
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background-color: var(--skin-color);
+  left: 7px;
+  top: 0;
 }
+
 .about .about-content .timeline .timeline-date {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--text-black-700);
-    margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-bottom: 12px;
 }
+
 .about .about-content .timeline .timeline-date .fa {
-    margin-right: 5px;
+  margin-right: 5px;
 }
+
 .about .about-content .timeline .timeline-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-black-900);
-    margin-bottom: 15px
-    text-transform: capitalize;
-    color: var(--text-black-900);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: var(--text-black-900);
 } 
+
 .about .about-content .timeline .timeline-text {
-    font-size: 16px;
-    color: var(--text-black-700);
-    line-height: 25px;
-    text-align: justify;
+  font-size: 16px;
+  color: var(--text-black-700);
+  line-height: 25px;
+  text-align: justify;
 }
+
 /* skills */
-
-
 .skills .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-    gap: 20px; 
-    padding: 10px;
+  gap: 20px; 
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .skills .skills-item {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden; /* Ensure that any overflow is hidden */
+  flex: 1 1 200px; /* Allow items to grow and shrink */
+  max-width: 200px; /* Set a maximum width for uniformity */
+  margin: 10px; /* Optional: Add margin for spacing */
 }
 
 .skills .skills-item-inner {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .skills .skills-item-inner .skills-img {
-    width: 80%;
-    height: 100%; 
-    display: block;
-    background-color: var(--bg-black-100);
-    position: relative;
-    overflow: hidden;
+  width: 100%; /* Full width of the parent */
+  height: 0; /* Set height to 0 to use padding for aspect ratio */
+  padding-top: 100%; /* This creates a 1:1 aspect ratio */
+  position: relative;
+  overflow: hidden; /* Ensure that any overflow is hidden */
 }
 
 .skills .skills-item-inner .skills-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.3s ease;
+  position: absolute; /* Position the image absolutely */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the image takes the full width */
+  height: 100%; /* Ensure the image takes the full height */
+  object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+  transition: all 0.3s ease;
 }
 
 .skills .skills-item-inner .skills-img:hover img {
-    transform: scale(1.1); 
-}
-/* Portfolio */
-.portfolio .portfolio-item {
-    margin-bottom: 50px;
-    flex: 0 0 80%;
-    max-width: 80%;   
-}
-.portfolio .portfolio-item:hover {
-    box-shadow: 0 0 10px ;
-    transform: scale(1.01); 
-    background-shadow: var(--skin-color);
-    width: 0%;
-}
-.portfolio .portfolio-item .portfolio-img {
-  
-    overflow: hidden;
-    border-radius: 10px;
-}
-.portfolio .portfolio-item .portfolio-img img {
-    
-    object-fit: cover;
-    transition: all 0.3s ease;
-}
-.portfolio .portfolio-item h4{
-    font-size: 24px;
-    font-weight: 900;
-    color: var(--text-black-900);
-    margin-bottom: 15px;
-    text-transform: capitalize;
+  transform: scale(1.1); 
 }
 
-.portfolio .portfolio-item p{
-    font-size: 25px;
-    color: var(--text-black-900);
-    margin-bottom: 25px;
+/* Portfolio */
+.portfolio .portfolio-item {
+  margin-bottom: 50px; /* Space below each portfolio item */
+  margin-right: auto; /* Space to the right of each portfolio item */
+  flex: 1 1 calc(50% - 15px); /* Adjust width to account for margin */
+  max-width: calc(50% - 15px); /* Adjust max width to account for margin */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
 }
-.portfolio .portfolio-item a{
-    font-size: 15px;
-    color: var(--skin-color);
-    font-weight: 900;
+
+
+.portfolio .portfolio-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+
 }
+
+.portfolio .portfolio-item .portfolio-img {
+  overflow: hidden; /* Ensure that any overflow is hidden */
+  border-radius: 10px; /* Rounded corners for the image container */
+}
+ .portfolio-img:hover{
+  transform: scale(0.9); /* Slightly scale up the image on hover */
+}
+
+.portfolio .portfolio-item .portfolio-img img {
+  width: 100%; /* Ensure the image takes the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.portfolio .portfolio-item h4 {
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+}
+
+.portfolio .portfolio-item p {
+  font-size: 20px; /* Adjusted font size for better readability */
+  color: var(--text-black-900);
+  margin-bottom: 25px;
+}
+
+.portfolio .portfolio-item a {
+  font-size: 15px;
+  color: var(--skin-color);
+  font-weight: 900;
+  text-decoration: none; /* Remove underline from links */
+}
+
 /* contact */
 .contact-title {
-    color: var(--skin-color);
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
+  color: var(--skin-color);
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
+
 .contact-sub-title {
   color: var(--text-black-900);
   text-align: center;
   font-size: 20px;
   margin-bottom: 60px;
 }
- .contact .contact-info-item {
-    flex: 0 0 50%;
-    max-width: 50%;
-    text-align: center;
-    margin-bottom: 60px;
+
+.contact .contact-info-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .contact .contact-info-item .icon {
-    display: inline-block;
-  }
-  .contact .contact-info-item .icon .fa {
-    font-size: 25px;
-    color: var(--skin-color);
-    
-  }/*
-  .contact .contact-info-item h4 {
-    font-size: 18px;
-    color: var(--text-black-900);
-    margin: 15px 0 5px;
-    font-weight: 700;
-    text-transform: capitalize;
-  }  
-  .contact .contact-info-item p {
-    font-size: 16px;
-    color: var(--text-black-700);
-  }
-  .contact .contact-form {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .contact .contact-form  .col-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .contact .contact-form  .col-12 {
-    flex: 0 0 100%;
-    max-width:100%;
-  }
-  .contact .contact-form .form-item {
-    margin-bottom: 30px;
-  }
-  .contact .contact-form .form-item .form-control {
-    width: 100%;
-    padding: 15px;
-    height: 50px;
-    border-radius: 25px;
-    background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    padding-left: 10px 25px;
-  }
-  .contact .contact-form .form-item .form-control:focus {
-    border-color: var(--skin  -color);
-    bax-shadow: 0 0 30px rgba(48, 46, 77, 0.15);
-  }
-  .contact .contact-form .form-item textarea.form-control {
-  height: 150px;
-  }
-  .contact .contact-form .form-item .btn {
-    height: 50px;
-    padding: 0 50px;
-  } */
+  display: inline-block;
+}
 
-@media ( max-width:1199px){
+.contact .contact-info-item .icon .fa {
+  font-size: 25px;
+  color: var(--skin-color);
+}
+
+/* For Responsive */
+@media (max-width: 768px) {
   .aside {
-    left: -270px;
+      width: 200px; /* Adjust width for smaller screens */
+      transform: translateX(-100%); /* Hide off-screen */
   }
+  
+
+
+
+  .aside.open {
+      transform: translateX(0); /* Show when toggled */
+  }
+
+  .aside .nav-toggler {
+      display: flex; /* Show the toggler button */
+  }
+
+  .aside .nav {
+      margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+
   .main-content {
-    padding-left: 0;
+      padding-left: 0; /* Remove left padding for smaller screens */
   }
-  .about .about-content .personal-info .info-item p span {
-    display: block;
-    margin-left: 0px;
+
+  .home .home-info, .home .home-img {
+      flex: 1 1 100%; /* Stack elements on smaller screens */
+      max-width: 100%;
   }
-}
-@media ( max-width:991px){
-  .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .skills .skills-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+
+  .about .about-content .personal-info {
+      flex: 0 0 100%; /* Full width for personal info */
+      max-width: 100%;
   }
-  .aboout .about-content .education,
-  .home .home-info {
-    flex: 0 0 100%;
-    max-width: 100%;
+
+  .portfolio .portfolio-item {
+      flex: 1 1 100%; /* Full width for portfolio items */
+      max-width: 100%;
   }
-  .home .home-img{
-    display: none;
-  }
-}
-@media ( max-width:767px){
-  .contact .contact-form .col-6, 
-  .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .skills .skills-item,
-  .about .about-content .education,
-  .about .about-content .experience,
-  .about .about-content .skills,
-  .about .about-content .personal-info
-  {
-    flex: 0 0 100%;
-    max-width: 100%;
+
+  .contact .contact-info-item {
+      flex: 0 0 100%; /* Full width for contact info items */
+      max-width: 100%;
   }
 }
 
+@media (max-width: 480px) {
+  .aside {
+      width: 100%; /* Full width on very small screens */
+  }
+
+  .aside .logo {
+      top: 10px; /* Adjust logo position */
+  }
+
+  .aside .nav li a {
+      font-size: 16px; /* Smaller font size for mobile */
+  }
+}
